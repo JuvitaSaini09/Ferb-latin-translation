@@ -8,7 +8,13 @@
 body {
 
     font-family: 'Klee One', cursive;
+    background-image: url(pictures/ferb.jpg);
+    background-repeat: no-repeat;
+    background-size: 160px 500px;
     margin: 0px;
+    background-position-x: 100%;
+    background-position-y: 150px;
+    margin:0px;
 
 }
 
