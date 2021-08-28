@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+
+:root {
+    --yellow-color: #FBBF24;
+}
+
+body {
+
+    font-family: 'Klee One', cursive;
+    margin: 0px;
+
+}
+
+.mainpage {
+    text-align: left;
+    margin-left: 10%;
+
+
+
+}
+
+.heading {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 150px;
+    background-color: var(--yellow-color);
+
+}
+
+h4 {
+    background-color: var(--yellow-color);
+    width: 72%;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0%;
+    margin-bottom: 2px;
+
+}
+
+.inputText {
+    width: 70%;
+    height: 150px;
+    border: 2px solid var(--yellow-color);
+}
+
+.translate-btn {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F59E0B;
+    color: white;
+}
+
+.translate-btn:hover {
+    background-color: chocolate;
+}
+
+.outputText {
+    width: 70%;
+    height: 110px;
+    border: 2px solid var(--yellow-color);
+}
+
+#foot {
+    text-align: center;
+    padding: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: var(--yellow-color);
+
+}
+
+#foot h1 {
+    text-align: center;
+}
+
+#foot p {
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    padding: 2px;
+}
