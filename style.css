@@ -2,7 +2,7 @@
 
 
 :root {
-    --yellow-color: #FBBF24;
+    --yellow-color: #5d3ec3;
 }
 
 body {
@@ -10,11 +10,14 @@ body {
     font-family: 'Klee One', cursive;
     background-image: url(pictures/ferb.jpg);
     background-repeat: no-repeat;
-    background-size: 160px 500px;
+    background-size: 140px 480px;
     margin: 0px;
     background-position-x: 100%;
-    background-position-y: 150px;
-    margin:0px;
+    background-position-y: 160px;
+    margin: 0px;
+    background-color: #cac1da;
+
+
 
 }
 
@@ -27,6 +30,10 @@ body {
 }
 
 .heading {
+    border: 5px #461792 solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px 3px 2px #8358c8;
+    color: white;
     font-size: 45px;
     text-align: center;
     margin-bottom: 40px;
@@ -34,8 +41,8 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    height: 150px;
-    background-color: var(--yellow-color);
+    height: 140px;
+    background-color: #4c12a8;
 
 }
 
@@ -43,7 +50,7 @@ h4 {
     background-color: var(--yellow-color);
     width: 72%;
     font-size: large;
-    color: black;
+    color: white;
     font-weight: bold;
     text-align: left;
     margin-left: 0%;
@@ -61,12 +68,15 @@ h4 {
     font-size: 18px;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #F59E0B;
+    background-color: #5b20b9;
     color: white;
+    border: 5px #ad8be4 solid;
+    border-radius: 5px;
 }
 
 .translate-btn:hover {
-    background-color: chocolate;
+    background-color: rgb(103, 70, 209);
+    border: 5px #5d3b95 solid;
 }
 
 .outputText {
@@ -76,11 +86,13 @@ h4 {
 }
 
 #foot {
+    color: white;
+    background-color: #461792;
     text-align: center;
     padding: 2px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    background-color: var(--yellow-color);
+
 
 }
 
