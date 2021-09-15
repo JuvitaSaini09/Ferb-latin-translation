@@ -3,7 +3,7 @@ var btn_translate = document.querySelector(".translate-btn");
 var output = document.querySelector(".outputText");
 
 function getText(inputt) {
-    var text = "https://api.funtranslations.com/translate/minion.json" + "?" + "text=" + inputt;
+    var text = "https://api.funtranslations.com/translate/ferb-latin.json" + "?" + "text=" + inputt;
     return text;
 
 }
