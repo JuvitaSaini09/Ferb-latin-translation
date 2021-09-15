@@ -82,6 +82,9 @@ h4 {
 }
 
 .outputText {
+    background-color: white;
+    color:black;
+    font-weight: bold;
     width: 70%;
     height: 110px;
     border: 2px solid var(--yellow-color);
