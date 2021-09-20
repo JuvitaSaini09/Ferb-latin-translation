@@ -10,6 +10,7 @@ function getText(inputt) {
 
 function errorHandler(error) {
     console.log("error !!", error);
+    alert("something went wrong !!");
 }
 
 function Handler() {
